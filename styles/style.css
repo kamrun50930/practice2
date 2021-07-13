@@ -1,0 +1,15 @@
+/*top player style*/
+.players{display:grid; grid-template-columns:repeat(3,1fr);grid-row-gap:30px;}
+.player{display:flex; align-items:center;}
+.player img{width:56px; height:56px;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{ font-family: font-family: 'Poppins', sans-serif;background-color:#F3F1FF;}
+main{display:flex;
+justify-content: center;}
+.container{background-color:white;width:870px;padding:13px;}
+.section-title{color:purple;margin-top:3px;}
+.player-name{padding-left:16px;font-size:10px}
+hr{border:1px solid gray}
+.top-players{margin-bottom:13px;}
+.blog-image{height:50px;width:50px;}
+.blog{display:flex;}
