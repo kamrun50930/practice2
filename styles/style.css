@@ -25,12 +25,24 @@ i{color:yellow;font-size: 12px;padding-right: 2px;}
 .clock{color:red;padding-left:5px;}
 .course-info{display:flex;}
 .last{display:grid;grid-template-columns: repeat(3, 1fr);}
-@media only screen and (max-width:688px;){
 
-.players, .blogs, .courses{background-color: oldlace;
-grid-template-columns: repeat(1, 1fr);}
+
+
+@media only screen and (max-width:688px)
+{
+
+.players, .blogs, .courses, .last{background-color:skyblue;
+grid-template-columns: repeat(1, 1fr);align-items: center;}
 .container{width:100%}
 
-.player,.blog {flex-direction: column;}
 
-}
+ .player, .blog, .course{flex-direction: column;}  }
+
+
+@media only screen and (min-width:688px) and (max-width:992px)
+
+
+
+
+ 
+
